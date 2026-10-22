@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Business Innovation — создавай бизнес будущего</title>
+  <meta name="description" content="Business Innovation: сайты, интернет-магазины, цифровая реклама, чат-боты и автоматизация бизнеса с помощью ИИ.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== ШАПКА И НАВИГАЦИЯ ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo" aria-label="Business Innovation">
+        <span class="logo__mark">BI</span>
+        <span class="logo__text">Business Innovation</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#about">О компании</a>
+        <a href="#services">Услуги</a>
+        <a href="#tech">Технологии</a>
+        <a href="#projects">Проекты</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+        <a href="#feedback" class="btn btn--small nav__cta">Оставить заявку</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== 1. ГЛАВНЫЙ ЭКРАН ===== -->
+    <section class="hero" id="home">
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__brand">Business Innovation</p>
+          <h1>Создавай бизнес будущего</h1>
+          <p class="hero__lead">Разрабатываем сайты, интернет-магазины и ИИ-решения, которые приводят клиентов и освобождают вашу команду от рутины.</p>
+          <div class="hero__actions">
+            <a href="#feedback" class="btn">Начать сейчас</a>
+            <a href="#projects" class="btn btn--ghost">Смотреть проекты</a>
+          </div>
+        </div>
+
+        <!-- Живая карточка-дашборд -->
+        <div class="dash" aria-hidden="true">
+          <div class="dash__top">
+            <span>Выручка за месяц</span>
+            <b class="dash__badge">+38%</b>
+          </div>
+          <div class="dash__sum">4 820 000 ₽</div>
+          <div class="dash__bars">
+            <i style="--h:35%"></i><i style="--h:50%"></i><i style="--h:42%"></i>
+            <i style="--h:68%"></i><i style="--h:60%"></i><i style="--h:82%"></i><i style="--h:96%"></i>
+          </div>
+          <div class="dash__chip dash__chip--a">🤖 Чат-бот ответил 312 клиентам</div>
+          <div class="dash__chip dash__chip--b">🛒 Новый заказ №2048</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 2. О КОМПАНИИ ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Помогаем бизнесу расти в цифровой среде</h2>
+          <p>Business Innovation — команда разработчиков, маркетологов и аналитиков. С 2018 года мы запускаем цифровые продукты для малого и среднего бизнеса.</p>
+        </div>
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <div class="icon">🎯</div>
+            <h3>Наша миссия</h3>
+            <p>Делать современные цифровые технологии доступными любой компании, а не только крупным корпорациям.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">🚀</div>
+            <h3>Наши цели</h3>
+            <p>Помочь 1000 компаний выйти в онлайн и сократить их рутинные расходы минимум на 30% за счёт автоматизации.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">💎</div>
+            <h3>Наши преимущества</h3>
+            <p>Фиксированная цена и сроки, личный менеджер проекта, поддержка после запуска и прозрачная отчётность.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. УСЛУГИ ===== -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Услуги</h2>
+          <p>Полный цикл: от идеи и дизайна до запуска, рекламы и автоматизации процессов.</p>
+        </div>
+        <div class="grid grid--services">
+          <article class="card reveal">
+            <div class="icon">🌐</div>
+            <h3>Создание сайтов</h3>
+            <p>Лендинги, корпоративные сайты и порталы с быстрой загрузкой и адаптивным дизайном.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">🛒</div>
+            <h3>Интернет-магазины</h3>
+            <p>Каталог, корзина, онлайн-оплата и интеграция с 1С, складом и службами доставки.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">📣</div>
+            <h3>Цифровая реклама</h3>
+            <p>Контекстная и таргетированная реклама, SEO и аналитика с понятными отчётами по заявкам.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">💬</div>
+            <h3>Чат-боты</h3>
+            <p>Боты для Telegram, WhatsApp и сайта: принимают заказы, отвечают на вопросы, записывают на услуги.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">⚙️</div>
+            <h3>Автоматизация с ИИ</h3>
+            <p>Передаём ИИ обработку заявок, документов и отчётов — сотрудники занимаются важными задачами.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. ИННОВАЦИОННЫЕ ТЕХНОЛОГИИ ===== -->
+    <section class="section" id="tech">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Инновационные технологии</h2>
+          <p>Используем проверенные инструменты, которые дают измеримый результат.</p>
+        </div>
+        <div class="tech">
+          <div class="tech__item reveal"><span class="tech__ico">🧠</span><div><h3>Искусственный интеллект</h3><p>Прогнозы спроса, умные ассистенты и анализ обращений клиентов.</p></div></div>
+          <div class="tech__item reveal"><span class="tech__ico">🛍️</span><div><h3>Электронная коммерция</h3><p>Платформы онлайн-продаж с персональными рекомендациями.</p></div></div>
+          <div class="tech__item reveal"><span class="tech__ico">📊</span><div><h3>Big Data</h3><p>Собираем и разбираем большие объёмы данных для точных решений.</p></div></div>
+          <div class="tech__item reveal"><span class="tech__ico">☁️</span><div><h3>Облачные сервисы</h3><p>Надёжный хостинг, резервные копии и масштабирование без простоев.</p></div></div>
+          <div class="tech__item reveal"><span class="tech__ico">📈</span><div><h3>Цифровой маркетинг</h3><p>Сквозная аналитика: видно, какая реклама приносит деньги.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5. НАШИ ПРОЕКТЫ ===== -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Наши проекты</h2>
+          <p>Несколько недавних запусков, которыми мы гордимся.</p>
+        </div>
+        <div class="grid grid--3">
+          <article class="card project reveal">
+            <div class="project__img project__img--1"><span>🛒</span></div>
+            <div class="project__body">
+              <h3>FreshBox — доставка продуктов</h3>
+              <p>Интернет-магазин с подпиской на наборы продуктов. Заказы выросли в 2,4 раза за полгода.</p>
+              <button class="btn btn--small btn--ghost" data-project="0">Подробнее</button>
+            </div>
+          </article>
+          <article class="card project reveal">
+            <div class="project__img project__img--2"><span>🤖</span></div>
+            <div class="project__body">
+              <h3>MedAssist — бот для клиники</h3>
+              <p>Чат-бот записывает пациентов и напоминает о приёмах. Нагрузка на администраторов снизилась на 45%.</p>
+              <button class="btn btn--small btn--ghost" data-project="1">Подробнее</button>
+            </div>
+          </article>
+          <article class="card project reveal">
+            <div class="project__img project__img--3"><span>📊</span></div>
+            <div class="project__body">
+              <h3>LogiTrack — аналитика логистики</h3>
+              <p>Панель на основе Big Data для контроля маршрутов. Затраты на топливо сократились на 18%.</p>
+              <button class="btn btn--small btn--ghost" data-project="2">Подробнее</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 6. СТАТИСТИКА ===== -->
+    <section class="stats" id="stats">
+      <div class="container stats__grid">
+        <div class="stat reveal"><b data-count="350" data-suffix="+">0</b><span>довольных клиентов</span></div>
+        <div class="stat reveal"><b data-count="520" data-suffix="+">0</b><span>реализованных проектов</span></div>
+        <div class="stat reveal"><b data-count="48" data-suffix="">0</b><span>партнёра по всему миру</span></div>
+        <div class="stat reveal"><b data-count="8" data-suffix=" лет">0</b><span>на рынке</span></div>
+      </div>
+    </section>
+
+    <!-- ===== 7. ОТЗЫВЫ ===== -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Отзывы клиентов</h2>
+          <p>Что говорят о работе с нами владельцы бизнеса.</p>
+        </div>
+        <div class="grid grid--3">
+          <figure class="card review reveal">
+            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <blockquote>Интернет-магазин запустили за шесть недель, как и обещали. Через месяц онлайн-заказы обогнали офлайн-продажи.</blockquote>
+            <figcaption><span class="avatar">АК</span><div><b>Алексей Кузнецов</b><small>Владелец FreshBox</small></div></figcaption>
+          </figure>
+          <figure class="card review reveal">
+            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <blockquote>Бот взял на себя запись пациентов. Администраторы наконец занимаются людьми, а не звонками.</blockquote>
+            <figcaption><span class="avatar">ЕМ</span><div><b>Елена Морозова</b><small>Директор клиники MedAssist</small></div></figcaption>
+          </figure>
+          <figure class="card review reveal">
+            <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <blockquote>Аналитическая панель показала, где мы теряем деньги на маршрутах. Окупилась за два месяца.</blockquote>
+            <figcaption><span class="avatar">ДС</span><div><b>Дмитрий Соколов</b><small>Руководитель LogiTrack</small></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 8. ФОРМА ОБРАТНОЙ СВЯЗИ ===== -->
+    <section class="section section--alt" id="feedback">
+      <div class="container form-wrap">
+        <div class="form-wrap__text reveal">
+          <h2>Расскажите о вашей задаче</h2>
+          <p>Оставьте заявку — менеджер свяжется с вами в течение рабочего дня, обсудит задачу и бесплатно подготовит предложение.</p>
+        </div>
+        <form class="form reveal" id="form" novalidate>
+          <div class="field">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" placeholder="Как к вам обращаться" autocomplete="name">
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" placeholder="+7 900 123-45-67" autocomplete="tel">
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="email">Электронная почта</label>
+            <input type="email" id="email" name="email" placeholder="name@company.ru" autocomplete="email">
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="4" placeholder="Кратко опишите, что нужно сделать"></textarea>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <button type="submit" class="btn btn--full">Отправить заявку</button>
+          <p class="form__success" id="success" role="status" hidden>✅ Спасибо! Заявка отправлена. Мы свяжемся с вами в ближайшее время.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== 9. КОНТАКТЫ ===== -->
+    <section class="section" id="contacts">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Контакты</h2>
+          <p>Звоните, пишите или заходите в гости — нам всегда есть что обсудить.</p>
+        </div>
+        <div class="grid grid--3">
+          <a class="card contact reveal" href="tel:+78005553535"><div class="icon">📞</div><h3>Телефон</h3><p>+7 (800) 555-35-35</p></a>
+          <a class="card contact reveal" href="mailto:hello@business-innovation.ru"><div class="icon">✉️</div><h3>Электронная почта</h3><p>hello@business-innovation.ru</p></a>
+          <div class="card contact reveal">
+            <div class="icon">💬</div><h3>Социальные сети</h3>
+            <p class="socials"><a href="#" aria-label="Telegram">Telegram</a><a href="#" aria-label="ВКонтакте">ВКонтакте</a><a href="#" aria-label="YouTube">YouTube</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 10. ПОДВАЛ ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#home" class="logo"><span class="logo__mark">BI</span><span class="logo__text">Business Innovation</span></a>
+        <p class="footer__about">Цифровые решения для бизнеса, который хочет расти.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <a href="#about">О компании</a><a href="#services">Услуги</a><a href="#tech">Технологии</a>
+        <a href="#projects">Проекты</a><a href="#reviews">Отзывы</a><a href="#feedback">Заявка</a>
+      </nav>
+      <div class="footer__contacts">
+        <a href="tel:+78005553535">+7 (800) 555-35-35</a>
+        <a href="mailto:hello@business-innovation.ru">hello@business-innovation.ru</a>
+      </div>
+    </div>
+    <div class="container footer__copy">© <span id="year">2026</span> Business Innovation. Все права защищены.</div>
+  </footer>
+
+  <!-- Окно с подробностями проекта -->
+  <dialog class="modal" id="modal">
+    <h3 id="modal-title"></h3>
+    <p id="modal-text"></p>
+    <ul id="modal-list"></ul>
+    <button class="btn" id="modal-close">Закрыть</button>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
